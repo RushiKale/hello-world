@@ -1,18 +1,150 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rushikesh Kale Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.2rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 2rem;
+      color: #444;
+    }
+
+    .section {
+      margin-bottom: 1.5rem;
+    }
+
+    .contact, .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .contact div, .skills div {
+      flex: 1 1 200px;
+    }
+
+    a {
+      color: #0073b1;
+      text-decoration: none;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.5rem;
+    }
+
+    .job-title {
+      font-weight: bold;
+    }
+
+    .company {
+      color: #555;
+    }
+
+    .date {
+      font-style: italic;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
-
 <body>
+  <div class="container">
+    <h1>Rushikesh Kale</h1>
+    <div class="job-title">Associate Software Developer at Springer Nature Group</div>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+    <div class="section contact">
+      <div><strong>📍</strong> Kharadi, Pune</div>
+      <div><strong>📞</strong> 8855080285</div>
+      <div><strong>📧</strong> <a href="mailto:kalerushikesh42161@gmail.com">kalerushikesh42161@gmail.com</a></div>
+      <div><strong>🔗</strong> <a href="https://www.linkedin.com/in/rushikesh-kale-b39631147" target="_blank">LinkedIn</a></div>
+    </div>
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+    <div class="section">
+      <h2>Summary</h2>
+      <p>
+        With over 2.5 years of hands-on experience in software development, I've contributed to building scalable applications using modern technologies like Spring Boot, Kotlin, and UI automation tools. The education I received at Savitribai Phule Pune University and C-DAC shaped my problem-solving mindset, emphasizing efficiency and clean architecture. I’m passionate about staying ahead with tech advancements and strive to contribute to projects that push the limits of what software can achieve.
+      </p>
+    </div>
 
+    <div class="section">
+      <h2>Experience</h2>
+      <p><strong>Springer Nature Group</strong> – Associate Software Developer<br/>
+      <span class="date">Dec 2022 – Present</span><br/>
+      • Developed and maintained advertisement applications.<br/>
+      • Supported legacy systems, fixed bugs, and added new features.<br/>
+      • Collaborated cross-functionally for smooth delivery.
+      </p>
+
+      <p><strong>PiSyst India Pvt. Ltd.</strong> – Full Stack Developer Intern<br/>
+      <span class="date">Jul 2021 – Dec 2021</span><br/>
+      • Automated HR processes using UiPath.<br/>
+      • Built RESTful APIs using Spring Boot.<br/>
+      • Tested APIs using Rest Assured.
+      </p>
+    </div>
+
+    <div class="section skills">
+      <div>
+        <h2>Top Skills</h2>
+        <ul>
+          <li>Spring Boot (Kotlin / Java)</li>
+          <li>Grails with Groovy</li>
+          <li>Quick Learner</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Languages</h2>
+        <ul>
+          <li>Marathi (Native)</li>
+          <li>Hindi (Professional)</li>
+          <li>English (Professional)</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Certifications</h2>
+        <ul>
+          <li>Robotic Process Automation (RPA)</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Awards</h2>
+        <ul>
+          <li>Winner, Smart India Hackathon 2019</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <p><strong>C-DAC</strong> – Advanced Computing<br/><span class="date">Mar 2022 – Sep 2022</span></p>
+      <p><strong>Savitribai Phule Pune University</strong> – B.E. in E&TC<br/><span class="date">Aug 2016 – May 2020</span></p>
+    </div>
+  </div>
 </body>
 </html>
